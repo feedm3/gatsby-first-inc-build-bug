@@ -5,20 +5,20 @@ To see the bug, run `yarn build` 3 times and check the build log.
 Issue on Github: https://github.com/gatsbyjs/gatsby/issues/33450
 
 > This code is also on CodeSandbox. You can run the yarn command in the bash console on the
-bottom right terminal: https://codesandbox.io/s/gatsby-first-inc-build-bug-029hx?
+bottom right terminal: https://codesandbox.io/s/gatsby-first-inc-build-bug-83pbu
 
 ## Expected
 
 The first build needs to build all HTML files. Starting with the
 second build, only incremental builds should be done. As there
-is no change in data our source, the first incremenal build
+is no change in data or source, the first incremental build
 shouldn't rebuild any HTML page.
 
 ## Actual
 
 The first build builts all HTML files. This is correct. The
 second file rebuilts all HTML files. This is incorrect. Only
-with the third build, no HTML pages are built anymore.
+with the third and upcoming builds, no HTML pages are built anymore.
 
 First build (full build):
 
