@@ -9,6 +9,8 @@ import * as React from "react"
 import PropTypes from "prop-types"
 
 import Header from "./header"
+
+// without this .css import, that first incremental build works as expected
 import "./layout.css"
 
 const Layout = ({ children }) => {

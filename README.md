@@ -1,5 +1,7 @@
 # Gatsby first incremental build bug
 
+Update: If you remove the import of the `layout.css` in `/src/components/layout.js`, the bug doesn't appear anymore.
+
 To see the bug, run `yarn build` 3 times and check the build log.
 
 Issue on Github: https://github.com/gatsbyjs/gatsby/issues/33450
