@@ -1,6 +1,6 @@
 # Gatsby first incremental build bug
 
-Update: If you remove the import of the `layout.css` in [./src/components/layout.js](./src/components/layout.js), the bug doesn't appear anymore.
+> On this branch we use styled-components for the global styling. This fixes the bug.
 
 To see the bug, run `yarn build` 3 times and check the build log.
 

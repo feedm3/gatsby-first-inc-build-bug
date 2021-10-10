@@ -5,5 +5,5 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-styled-components`],
 }
